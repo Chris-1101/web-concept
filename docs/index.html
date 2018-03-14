@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+	<title> Proyecto Final |  </title>
+	<meta charset="utf-8" />
+	<meta name="author" content="Christopher MacBain" />
+
+	<style>
+
+		body {
+			font: 12px Helvetica;
+		}
+
+		#centre_page {
+			width: 600px;
+			margin: auto;
+			border: none;
+		}
+
+		fieldset {
+			margin: 50px 0;
+			padding: 20px 30px;
+			border: 1px dashed #ccc;
+		}
+
+		legend {
+			font: 20px Arial, sans-serif;
+		}
+
+		code, pre {
+			padding: 2px 7px 1px;
+			background: #f5f5f5;
+			border: 1px solid #d0d0d0;
+			border-radius: 4px;
+			color: #c42b23;
+		}
+
+		pre {
+			line-height: 20px;
+			text-align: left;
+			padding-left: 40px;
+		}
+
+		h1 {
+			padding-top: 30px;
+		}
+
+		h2 {
+			padding-top: 17px;
+			font: small-caps 17px Helvetica;
+			letter-spacing: 7px;
+		}
+
+			h2:nth-child(2) { padding-top: 0; }
+
+		p {
+			line-height: 22px;
+			text-align: justify;
+		}
+
+		a {
+			color: #16a2eb;
+			text-decoration: none;
+		}
+
+			a:hover {
+				text-decoration: underline;
+			}
+
+			#intro a:nth-child(5) {
+				margin-right: 35px;
+			}
+
+			img:hover {
+				box-shadow: 0 0 7px 0 #333;
+			}
+
+	</style>
+
+</head>
+
+<body>
+
+	<div id="centre_page">
+		
+		<h1 style="margin: 0; text-align: center">Proyecto final de curso - Christopher</h1>
+		
+		<!-- 1. Introducción -->
+
+		<fieldset id="intro">
+
+			<legend>Introducción</legend>
+
+			<p>
+				Sintaxis:
+				<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fchristofer.conexpro.com%2F" target="_blank">
+				validación del sitio en W3C.org</a>
+			</p>
+
+			<h2>-material prestado</h2>
+
+			<p>
+				El sitio que hice para el proyecto final no lleva mucho material de base, (imágenes o ideas prestadas
+				de internet). Estas son las dos imágenes que encontré en Google Imágenes, en su estado original:
+			</p>
+
+			<a href="e1920d1080p.jpg" target="_blank"><img src="thumb1.png" alt="Primera imágen" /></a>
+			<a href="kiwiesrulexd-d41pmjj.png" target="_blank"><img src="thumb2.png" alt="Segunda imágen" /></a>
+
+			<p>
+				También use unas cuantas fotografías (tomadas otra vez de Google Imágenes, algunas a lo mejor de
+				deviantART) que usé para las cabeceras de los artículos de las páginas portfolio y servicios,
+				pero no pensé en guardarlas.
+			</p>
+
+			<h2>-el diseño</h2>
+
+			<p>
+				Por lo demás, diseñe el sitio desde cero. Elegí usar colores oscuros y temática 'Metro'
+				(un lenguaje de diseño de Microsoft, popular por su uso en Windows 8).
+				<a href="http://en.wikipedia.org/wiki/Metro_(design_language)" target="_blank" title="Articulo en Wikipedia">
+				Metro Design Language</a>.
+			</p>
+
+			<h2>-tipografías</h2>
+
+			<p>
+				Las fuentes usadas en el diseño son: <code>Apex New</code> y <code>Segoe UI</code>. Estas fuentes no son
+				gratuitas, pero tengo licencia que me permiten usarlas en el diseño, pero no para incrustarlas en el sitio
+				web. Por eso tuve que usar fuentes diferentes para el texto general.
+			</p>
+
+			<p>
+				Para el texto del sitio, incruste dos 'webfonts' muy populares en la red ahora mismo, que son
+				<code>Open Sans</code> y <code>Lato</code>. Quería tener un sitio independiente, así que me las subí junto
+				al sitio en vez de tener un lienzo hacia Google.
+			</p>
+
+			<h2>-scripts</h2>
+
+			<p>
+				También use algunas librerías de JavaScript, que por supuesto no las escribí yo.
+				<a href="https://code.google.com/p/swfobject/" target="_blank">SWF Object</a> para incrustar objetos
+				Flash de manera más limpia, y <a href="http://jquery.com" target="_blank">JQuery 1.9.1</a> para el JQuery.
+				También está el script de mi cuenta en <a href="https://www.google.com/analytics/web" target="_blank">Google
+				Analytics</a>.
+			</p>
+
+		</fieldset>
+
+		<!-- 2. HTML 5 -->
+
+		<fieldset>
+
+			<legend>HTML 5</legend>
+
+			<h2>-estructura</h2>
+
+			<p>
+				Además del logo Flash y del banner de anuncio, La cabecera lleva unos elementos animados con CSS para
+				el inicio 	de la pagina, y los iconos / lienzos de redes sociales.
+			</p>
+
+			<p>
+				El contenido lleva tres páginas (un portfolio de clientes recientes, una página donde se detallan los
+				servicios ofrecidos, y un formulario de contacto) que están definidas todas en el mismo documento HTML.
+			</p>
+
+			<h2>-cabecera y metas</h2>
+
+			<p>
+				Use todos los meta-tags que usaría normalmente en un sitio de verdad. Están los habituales, pero también
+				está la meta de verificación de mi cuenta en <a href="https://www.google.com/webmasters/tools/home?hl=es"
+				target="_blank">Google Webmaster Tools</a> y la de <code>viewport</code> que es un ajuste para el
+				'Responsive Design' y móviles.
+			</p>
+
+			<h2>-etiquetaje</h2>
+
+			<p>
+				La estructura del sitio lleva dos partes.
+			</p>
+			<p>
+				La parte de arriba, incluyendo el visor, es el <code>&lt;header&gt;</code>, que lleva el logo hecho con
+				Flash, el banner de anuncio Flash , y la parte del visor <code>&lt;div id="viewport"&gt;</code>. El visor
+				a su vez, contiene los elementos animados de css.
+			</p>
+			<p>
+				La parte debajo del visor es un <code>&lt;section&gt;</code>, que contiene el contenido principal del
+				sitio, con el <code>&lt;nav&gt;</code> al principio, y el <code>&lt;footer&gt;</code> al final.
+			</p>
+
+		</fieldset>
+
+		<!-- 3. CSS 3 -->
+
+		<fieldset>
+
+			<legend>CSS 3</legend>
+
+			<p>Dividí el CSS en tres documentos basado en el tipo de reglas que se estaba definiendo.</p>
+
+			<h2>-general y 'responsive'</h2>
+
+			<p>
+				El documento principal de CSS <a href="../css/default.css" target="_blank">default.css</a> que contiene
+				todas las reglas básicas para la estructura y el estilo del sitio. Al final están definidas las reglas
+				<code>@media</code> que manejan diferentes estilos basadas en la anchura de la ventana del navegador
+				('Responsive Design').
+			</p>
+
+			<h2>-animaciones</h2>
+
+			<p>
+				Un documento CSS aparte <a href="../css/animations.css" target="_blank">animations.css</a> que contiene
+				todas las reglas para las animaciones de inicio de la cabecera. Decidí ponerlos aparte porque es mucho
+				código para poca cosa (con los prefijos de cada navegador de la regla <code>@keyframes</code>) y para
+				poder quitarlos fácilmente (que me vino bien durante el desarrollo).
+			</p>
+
+			<h2>-tipografías</h2>
+
+			<p>
+				Y un último documento CSS <a href="../css/fonts.css" target="_blank">fonts.css</a> para las tipografías
+				incrustadas mediante la regla <code>@font-face</code>. Igual que con las animaciones, siempre me parece
+				mucho código por poca cosa, y ya que se define una vez y se olvida de ello, lo pongo aparte.
+			</p>
+
+		</fieldset>
+
+		<!-- 4. JavaScript -->
+
+		<fieldset>
+
+			<legend>Flash / Scripts</legend>
+
+			<p>
+				Escribí algunos script para facilitar la interacción del usuario ya que sabía como, pero son todas cosas
+				muy sencillas de unas cuantas líneas de código. Ya sé que no toca en el curso y que no se va a valorar,
+				pero lo explico rápido.
+			</p>
+
+			<h2>-objetos flash (javascript)</h2>
+
+			<p>
+				Incrustar objetos Flash suele llevar 20 líneas de código para muy poca cosa, y como me gusta tener el
+				código lo más limpio y simple posible, use una librería de Google que te permite hacerlo llamando a una
+				función sin más. El script <a href="../scripts/chris.flash.js" target="_blank">chris.flash.js</a> mas
+				que código es una hoja de ajustes, pero lo comento en el archivo mismo si quieres ver cómo funciona.
+			</p>
+
+			<h2>-scroll lento (jquery)</h2>
+
+			<p>
+				El lienzo en la cabecera 'mis trabajos' hace que la pagina haga un scroll hacia el menú de navegación
+				del contenido. Pero lo anima lentamente, en vez de saltar directamente a ese lugar como pasaría usando
+				simples <code>&lt;a name="ancla"&gt;</code>. Eso lo consigo con el método <code>scrollTop()</code> de
+				JQuery. Son 2 líneas por cada lienzo (el de inicio para volver a subir usa el mismo), lo comento en el
+				archivo <a href="../scripts/chris.scroll.js" target="_blank">chris.scroll.js</a>.
+			</p>
+
+			<h2>-pestañas (jquery)</h2>
+
+			<p>
+				Escribí un script usando JQuery ( <a href="../scripts/chris.tabs.js" target="_blank">chris.tabs.js</a> ),
+				para hacer transiciones entre páginas sin tener que cargar una página nueva. Un poco como tener pestañas
+				para navegar entre diferentes secciones. Lo comento en el archivo mismo.
+			</p>
+
+			<h2>-email (php)</h2>
+
+			<p>
+				El script de php que escribí para el formulario (<a href="../scripts/chris.email.php" target="_blank">
+				chris.email.php</a> ) se parece mucho al que nos distes tu. La única diferencia es que usé el método
+				predefinido <code>str.replace()</code> para reemplazar a los saltos de línea del textarea (que no
+				serán reconocidos por HTML) por <code>&lt;br&gt;</code> y la función predefinida <code>header()</code>
+				para redirigir al usuario a una página de confirmación de envío. Lo comento en el archivo mismo.
+			</p>
+
+		</fieldset>
+</body>
+</html>

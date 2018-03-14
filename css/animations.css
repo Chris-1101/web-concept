@@ -1,0 +1,274 @@
+/* === Animaciones para #social === */
+
+@keyframes slidein_social {
+	0%, 50% {
+		opacity: 0;
+		margin-left: -1607px;
+	}
+	100% {
+		opacity: 1;
+		margin-left: -607px;
+	}
+}
+
+@-webkit-keyframes slidein_social {
+	0%, 50% {
+		opacity: 0;
+		margin-left: -1607px;
+	}
+	100% {
+		opacity: 1;
+		margin-left: -607px;
+	}
+}
+
+@-moz-keyframes slidein_social {
+	0%, 50% {
+		opacity: 0;
+		margin-left: -1607px;
+	}
+	100% {
+		opacity: 1;
+		margin-left: -607px;
+	}
+}
+
+@-ms-keyframes slidein_social {
+	0%, 50% {
+		opacity: 0;
+		margin-left: -1607px;
+	}
+	100% {
+		opacity: 1;
+		margin-left: -607px;
+	}
+}
+
+@-o-keyframes slidein_social {
+	0%, 50% {
+		opacity: 0;
+		margin-left: -1607px;
+	}
+	100% {
+		opacity: 1;
+		margin-left: -607px;
+	}
+}
+
+#social {
+	-webkit-animation: slidein_social 2s ease-out;
+	   -moz-animation: slidein_social 2s ease-out;
+	    -ms-animation: slidein_social 2s ease-out;
+	     -o-animation: slidein_social 2s ease-out;
+	        animation: slidein_social 2s ease-out;
+}
+
+/* === Animaciones para #featured_art === */
+
+@keyframes slidein_art {
+	0%, 50% {
+		opacity: 0;
+		bottom: -221px;
+	}
+	100% {
+		opacity: 1;
+		bottom: 3px;
+	}
+}
+
+@-webkit-keyframes slidein_art {
+	0%, 50% {
+		opacity: 0;
+		bottom: -221px;
+	}
+	100% {
+		opacity: 1;
+		bottom: 3px;
+	}
+}
+
+@-moz-keyframes slidein_art {
+	0%, 50% {
+		opacity: 0;
+		bottom: -221px;
+	}
+	100% {
+		opacity: 1;
+		bottom: 3px;
+	}
+}
+
+@-ms-keyframes slidein_art {
+	0%, 50% {
+		opacity: 0;
+		bottom: -221px;
+	}
+	100% {
+		opacity: 1;
+		bottom: 3px;
+	}
+}
+
+@-o-keyframes slidein_art {
+	0%, 50% {
+		opacity: 0;
+		bottom: -221px;
+	}
+	100% {
+		opacity: 1;
+		bottom: 3px;
+	}
+}
+
+#featured_art {
+	-webkit-animation: slidein_art 3s ease-out;
+	   -moz-animation: slidein_art 3s ease-out;
+	    -ms-animation: slidein_art 3s ease-out;
+	     -o-animation: slidein_art 3s ease-out;
+	        animation: slidein_art 3s ease-out;
+}
+
+/* === Animaciones para #featured_info === */
+
+@keyframes slidein_info {
+	0%, 66% {
+		opacity: 0;
+		margin-left: 200px;
+	}
+	100% {
+		opacity: 1;
+		margin-left: -21px;
+	}
+}
+
+@-webkit-keyframes slidein_info {
+	0%, 66% {
+		opacity: 0;
+		margin-left: 200px;
+	}
+	100% {
+		opacity: 1;
+		margin-left: -21px;
+	}
+}
+
+@-moz-keyframes slidein_info {
+	0%, 66% {
+		opacity: 0;
+		margin-left: 200px;
+	}
+	100% {
+		opacity: 1;
+		margin-left: -21px;
+	}
+}
+
+@-ms-keyframes slidein_info {
+	0%, 66% {
+		opacity: 0;
+		margin-left: 200px;
+	}
+	100% {
+		opacity: 1;
+		margin-left: -21px;
+	}
+}
+
+@-o-keyframes slidein_info {
+	0%, 66% {
+		opacity: 0;
+		margin-left: 200px;
+	}
+	100% {
+		opacity: 1;
+		margin-left: -21px;
+	}
+}
+
+#featured_info {
+	-webkit-animation: slidein_info 3.3s ease-out;
+	   -moz-animation: slidein_info 3.3s ease-out;
+	    -ms-animation: slidein_info 3.3s ease-out;
+	     -o-animation: slidein_info 3.3s ease-out;
+	        animation: slidein_info 3.3s ease-out;
+}
+
+/* === Animaciones para #featured_link === */
+
+@keyframes slidein_link {
+	0%, 75% {
+		opacity: 0;
+		bottom: -100px;
+	}
+	85% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		bottom: 3px;
+	}
+}
+
+@-webkit-keyframes slidein_link {
+	0%, 75% {
+		opacity: 0;
+		bottom: -100px;
+	}
+	85% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		bottom: 3px;
+	}
+}
+
+@-moz-keyframes slidein_link {
+	0%, 75% {
+		opacity: 0;
+		bottom: -100px;
+	}
+	85% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		bottom: 3px;
+	}
+}
+
+@-ms-keyframes slidein_link {
+	0%, 75% {
+		opacity: 0;
+		bottom: -100px;
+	}
+	85% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		bottom: 3px;
+	}
+}
+
+@-o-keyframes slidein_link {
+	0%, 75% {
+		opacity: 0;
+		bottom: -100px;
+	}
+	85% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		bottom: 3px;
+	}
+}
+
+#featured_link {
+	-webkit-animation: slidein_link 4s ease-out;
+	   -moz-animation: slidein_link 4s ease-out;
+	    -ms-animation: slidein_link 4s ease-out;
+	     -o-animation: slidein_link 4s ease-out;
+	        animation: slidein_link 4s ease-out;
+}
